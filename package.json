@@ -1,0 +1,30 @@
+{
+  "name": "@arvindr21/super-calc",
+  "version": "0.1.0",
+  "description": "A super calculator private app",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm test",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvindr21/super-calc.git"
+  },
+  "keywords": [
+    "Private",
+    "NPM",
+    "Tutorial",
+    "super",
+    "calc"
+  ],
+  "author": "Arvind Ravulvaru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arvindr21/super-calc/issues"
+  },
+  "homepage": "https://github.com/arvindr21/super-calc#readme",
+  "dependencies": {
+    "mocha": "^2.2.5"
+  }
+}
